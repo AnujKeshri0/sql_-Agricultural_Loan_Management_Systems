@@ -1,0 +1,34 @@
+CREATE TABLE borrowers (
+    borrower_id INT PRIMARY KEY,
+    name VARCHAR(255),
+    contact_info VARCHAR(255),
+    date_of_birth DATE
+);
+
+INSERT INTO borrowers (borrower_id, name, contact_info, date_of_birth) VALUES
+(1, 'Alice Smith', 'alice@example.com', '1980-01-15'),
+(2, 'Bob Johnson', 'bob@example.com', '1990-02-20'),
+(3, 'Charlie Brown', 'charlie@example.com', '1985-03-25'),
+(4, 'David Wilson', 'david@example.com', '1975-04-30'),
+(5, 'Eva Davis', 'eva@example.com', '1995-05-05'),
+(6, 'Frank Miller', 'frank@example.com', '1982-06-10'),
+(7, 'Grace Lee', 'grace@example.com', '1992-07-15'),
+(8, 'Hank Thomas', 'hank@example.com', '1978-08-20'),
+(9, 'Ivy Garcia', 'ivy@example.com', '1988-09-25'),
+(10, 'Jack White', 'jack@example.com', '1995-10-30'),
+(11, 'Karen Brown', 'karen@example.com', '1981-11-01'),
+(12, 'Leo King', 'leo@example.com', '1992-12-05'),
+(13, 'Mona Patel', 'mona@example.com', '1993-01-12'),
+(14, 'Nina Scott', 'nina@example.com', '1980-02-08'),
+(15, 'Oscar Lewis', 'oscar@example.com', '1985-03-20'),
+(16, 'Paul Walker', 'paul@example.com', '1970-04-12'),
+(17, 'Quinn Hall', 'quinn@example.com', '1998-05-15'),
+(18, 'Ray Adams', 'ray@example.com', '1984-06-22'),
+(19, 'Sophia Clark', 'sophia@example.com', '1990-07-18'),
+(20, 'Tom Brown', 'tom@example.com', '1983-08-10'),
+(21, 'Uma Johnson', 'uma@example.com', '1995-09-12'),
+(22, 'Vera White', 'vera@example.com', '1989-10-05'),
+(23, 'Will King', 'will@example.com', '1985-11-20'),
+(24, 'Xena Robinson', 'xena@example.com', '1992-12-30'),
+(25, 'Yara Thomas', 'yara@example.com', '1996-01-28'),
+(26, 'Zack Lopez', 'zack@example.com', '1972-02-15');
