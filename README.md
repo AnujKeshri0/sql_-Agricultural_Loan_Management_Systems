@@ -1,8 +1,7 @@
 # 🌾 Loan Management System for Farmers
-
-![Loan Management](https://img.shields.io/badge/Project-LoanManagement-orange) ![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-
+![Loan Management](https://img.shields.io/badge/Project-LoanManagement-orange) 
+![Status](https://img.shields.io/badge/Status-Active-brightgreen) 
+![License](https://img.shields.io/badge/License-MIT-blue)
 
 ---
 
